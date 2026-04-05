@@ -1,0 +1,17 @@
+{
+  "adapter_dir_resolved": "/content/drive/MyDrive/DL_Midterm_Spring_2026_2/svg_project_DL/outputs/workflow_runs/run_1/models/lora_model_id_9c771d06b1014d22",
+  "base_model_id": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+  "holdout_fingerprint": {
+    "holdout_csv_sha256": "024e0a01c6ad9e1c7ce92c1aa1b3546c97aec0341d648e17192956dabd87f340",
+    "n_holdout_rows": 100,
+    "split_manifest_subset": {
+      "first_n_labeled": null,
+      "holdout_n": 100,
+      "seed": 42,
+      "source_csv": "/content/drive/MyDrive/DL_Midterm_Spring_2026_2/svg_project_DL/data/processed/train_ranked.csv"
+    }
+  },
+  "max_new_tokens": 2048,
+  "postprocess_method": "current_default_sanitizer",
+  "schema_version": 1
+}

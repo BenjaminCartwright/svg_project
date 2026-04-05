@@ -1,0 +1,41 @@
+{
+  "evaluations": {
+    "holdout_best_extended": "outputs/workflow_runs/run_1/evaluations/holdout_best_extended",
+    "holdout_curriculum": "outputs/workflow_runs/run_1/evaluations/holdout_curriculum",
+    "holdout_tuning": "outputs/workflow_runs/run_1/evaluations/holdout_tuning"
+  },
+  "lora_tuning_workflow_dir": "outputs/workflow_runs/run_1/lora_tuning_workflow",
+  "model_registry_csv": "outputs/workflow_runs/run_1/models/model_registry.csv",
+  "modeling_splits_dir": "outputs/workflow_runs/run_1/modeling_splits",
+  "models_root": "outputs/workflow_runs/run_1/models",
+  "predictions_by_model_id": {
+    "78896fb7db0d4cf8": {
+      "eval_kind": "holdout_best_extended",
+      "predictions_csv": "outputs/workflow_runs/run_1/evaluations/holdout_best_extended/78896fb7db0d4cf8/predictions_post_current_default_sanitizer.csv"
+    },
+    "9c771d06b1014d22": {
+      "eval_kind": "holdout_best_extended",
+      "predictions_csv": "outputs/workflow_runs/run_1/evaluations/holdout_best_extended/9c771d06b1014d22/predictions_post_current_default_sanitizer.csv"
+    },
+    "c1a57bce22fe4a00": {
+      "eval_kind": "holdout_curriculum",
+      "predictions_csv": "outputs/workflow_runs/run_1/evaluations/holdout_curriculum/c1a57bce22fe4a00/predictions_post_current_default_sanitizer.csv"
+    }
+  },
+  "run_profile_id": "run_1",
+  "schema_version": 1,
+  "split_manifest_snapshot": {
+    "easy_subset_frac": null,
+    "first_n_labeled": null,
+    "holdout_n": 100,
+    "holdout_rows": 100,
+    "prompt_col": "prompt",
+    "run_profile_id": "run_1",
+    "seed": 42,
+    "source_csv": "/content/drive/MyDrive/DL_Midterm_Spring_2026_2/svg_project_DL/data/processed/train_ranked.csv",
+    "svg_col": "svg",
+    "train_val_pool_rows": 49900,
+    "use_easy_subset": false
+  },
+  "workflow_root": "outputs/workflow_runs/run_1"
+}

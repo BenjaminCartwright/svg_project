@@ -1,0 +1,22 @@
+[
+  {
+    "model_id":"c1a57bce22fe4a00",
+    "tuning_stage":"curriculum",
+    "svg_open_rate":1.0,
+    "svg_close_rate":1.0,
+    "xml_parse_rate":0.8,
+    "render_rate":0.8,
+    "avg_pred_char_len":1595.4,
+    "submission_valid_rate":0.8
+  },
+  {
+    "model_id":"9c771d06b1014d22",
+    "tuning_stage":"best_extended",
+    "svg_open_rate":1.0,
+    "svg_close_rate":1.0,
+    "xml_parse_rate":0.6,
+    "render_rate":0.6,
+    "avg_pred_char_len":2623.0,
+    "submission_valid_rate":0.6
+  }
+]
